@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/devonadminpanel/static/css/main.f3e8946d.css",
+    "main.js": "/devonadminpanel/static/js/main.5f6b3d04.js",
+    "static/js/787.b701888c.chunk.js": "/devonadminpanel/static/js/787.b701888c.chunk.js",
+    "index.html": "/devonadminpanel/index.html",
+    "main.f3e8946d.css.map": "/devonadminpanel/static/css/main.f3e8946d.css.map",
+    "main.5f6b3d04.js.map": "/devonadminpanel/static/js/main.5f6b3d04.js.map",
+    "787.b701888c.chunk.js.map": "/devonadminpanel/static/js/787.b701888c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3e8946d.css",
+    "static/js/main.5f6b3d04.js"
+  ]
+}
