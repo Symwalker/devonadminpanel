@@ -56,7 +56,7 @@ const AdminNavbar = () => {
   const logout = ()=>{
     localStorage.removeItem('token')
     // window.location.reload();
-    // navigate('/admin-setup/login')
+    navigate('/')
   }
   // const active = location.pathname 
   // console.log(location.pathname);
