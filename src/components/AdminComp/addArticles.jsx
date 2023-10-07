@@ -71,6 +71,7 @@ import { createArticlee } from '../../store/products';
 import AdminNavbar from './adminNavbar';
 import WritersThought from '../../pages/WritersThought';
 import { useLocation } from 'react-router-dom';
+import { Typography } from '@mui/material';
 
 const AddArticles = () => {
   const { register, handleSubmit, reset, formState: { errors } } = useForm();
@@ -131,7 +132,7 @@ const AddArticles = () => {
         </div>
       </form>
     </div>
-
+    <Typography variant='h3' className='w-3/5 mx-auto'>All Products Scroll to see</Typography>
     <WritersThought/>
     </>
   );
