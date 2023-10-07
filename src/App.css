@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.font-style{
+  font-family: 'Poppins', sans-serif !important;
+
+
+}
+
+
+.activeClass{
+  color: #0A8754 !important;
+}
+.noActiveClass{
+  color: white !important;
+}
