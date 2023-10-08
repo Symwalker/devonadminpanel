@@ -13,9 +13,9 @@ import AdminNavbar from './adminNavbar';
 import { useNavigate } from 'react-router-dom';
 const ShowContactinfo = () => {
   const navigate = useNavigate()
-  useEffect(()=>{
-    navigate('/admin-setup')
-  })
+  // useEffect(()=>{
+  //   navigate('/admin-setup')
+  // })
   return (
     <>
     {/* <AdminNavbar/> */}
