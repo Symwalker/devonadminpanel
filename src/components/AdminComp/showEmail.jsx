@@ -12,10 +12,7 @@ import { fetchAllemails } from '../../store/products';
 import AdminNavbar from './adminNavbar';
 import { useNavigate } from 'react-router-dom';
 const ShowEmails = () => {
-  const navigate = useNavigate()
-  // useEffect(()=>{
-  //   navigate('/admin-setup')
-  // })
+  
   return (
     <>
     {/* <AdminNavbar/> */}

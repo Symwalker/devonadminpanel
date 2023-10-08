@@ -12,13 +12,9 @@ import { fetchAllcontactss, fetchAllemails } from '../../store/products';
 import AdminNavbar from './adminNavbar';
 import { useNavigate } from 'react-router-dom';
 const ShowContactinfo = () => {
-  const navigate = useNavigate()
-  // useEffect(()=>{
-  //   navigate('/admin-setup')
-  // })
+  
   return (
     <>
-    {/* <AdminNavbar/> */}
     <CustomizedTables />
     </>
   )

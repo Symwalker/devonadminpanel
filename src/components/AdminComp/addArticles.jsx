@@ -82,10 +82,7 @@ const AddArticles = () => {
     dispatch(createArticlee(data));
     reset();
   };
-  const navigate = useNavigate()
-  // useEffect(()=>{
-  //   navigate('/admin-setup')
-  // })
+ 
   return (
     <>
     {/* <AdminNavbar/> */}
