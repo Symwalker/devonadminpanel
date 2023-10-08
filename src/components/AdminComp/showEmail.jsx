@@ -14,7 +14,7 @@ import { useNavigate } from 'react-router-dom';
 const ShowEmails = () => {
   const navigate = useNavigate()
   useEffect(()=>{
-    navigate('/')
+    navigate('/admin-setup')
   })
   return (
     <>

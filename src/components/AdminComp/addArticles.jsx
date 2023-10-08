@@ -83,9 +83,9 @@ const AddArticles = () => {
     reset();
   };
   const navigate = useNavigate()
-useEffect(()=>{
-  navigate('/')
-})
+  useEffect(()=>{
+    navigate('/admin-setup')
+  })
   return (
     <>
     {/* <AdminNavbar/> */}

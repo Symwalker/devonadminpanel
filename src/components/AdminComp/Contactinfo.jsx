@@ -14,7 +14,7 @@ import { useNavigate } from 'react-router-dom';
 const ShowContactinfo = () => {
   const navigate = useNavigate()
   useEffect(()=>{
-    navigate('/')
+    navigate('/admin-setup')
   })
   return (
     <>
