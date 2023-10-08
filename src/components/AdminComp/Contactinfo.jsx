@@ -10,7 +10,12 @@ import Paper from '@mui/material/Paper';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchAllcontactss, fetchAllemails } from '../../store/products';
 import AdminNavbar from './adminNavbar';
+import { useNavigate } from 'react-router-dom';
 const ShowContactinfo = () => {
+  const navigate = useNavigate()
+  useEffect(()=>{
+    navigate('/')
+  })
   return (
     <>
     {/* <AdminNavbar/> */}

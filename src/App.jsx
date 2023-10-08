@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Route, Routes, useRoutes } from 'react-router-dom';
 
 import Layout from './pages/Layout';
@@ -41,6 +41,7 @@ const App = () => {
 
 const element = useRoutes(routes)
 return (
+  
     <>
  
         {/* <Navbar /> */}

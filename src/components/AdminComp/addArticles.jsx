@@ -64,13 +64,13 @@
 // }
 
 // export default AddArticles
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { useDispatch } from 'react-redux';
 import { createArticlee } from '../../store/products';
 import AdminNavbar from './adminNavbar';
 import WritersThought from '../../pages/WritersThought';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { Typography } from '@mui/material';
 
 const AddArticles = () => {
@@ -82,7 +82,10 @@ const AddArticles = () => {
     dispatch(createArticlee(data));
     reset();
   };
-
+  const navigate = useNavigate()
+useEffect(()=>{
+  navigate('/')
+})
   return (
     <>
     {/* <AdminNavbar/> */}
